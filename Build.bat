@@ -7,3 +7,5 @@ jupyter nbconvert --to markdown C:\Users\82103\PandasBlogPosting\PandasBasic_6_D
 jupyter nbconvert --to markdown C:\Users\82103\PandasBlogPosting\PandasBasic_7_DataFrame_sort_rank.ipynb --output d:\PSYda\content\pandas\PandasBasic_7_DataFrame_sort_rank.md
 jupyter nbconvert --to markdown C:\Users\82103\PandasBlogPosting\PandasBasic_8_Pandas_apply_function.ipynb --output d:\PSYda\content\pandas\PandasBasic_8_Pandas_apply_function.md
 jupyter nbconvert --to markdown C:\Users\82103\PandasBlogPosting\PandasBasic_9_DataFrame_GroupingFunction.ipynb --output d:\PSYda\content\pandas\PandasBasic_9_DataFrame_GroupingFunction.md
+
+hugo -t hugo-future-imperfect
