@@ -27,10 +27,12 @@
 	}
 	
 .summary{
-	width:auto;
-	height:auto;
-	background-color:red;
-	font-size: 20px;
+	border-style: dashed;
+    border-width: 1px;
+    border-color: rgb(243, 197, 52);
+    background-color: rgb(254, 254, 184);
+    padding: 0px 30px;
+    line-height: 1.8;
   }
   .dataframe table{
 	margin-left: auto;
@@ -259,19 +261,23 @@
 		}
 
     h1 {
-        font-size: 26px;
+		font-size: 26px;
+		margin-top: 80px;
     }
 
 	h2 {
 		font-size: 22px;
+		margin-top: 60px;
 	}
 
 	h3 {
 		font-size: 18px;
+		margin-top: 40px;
 	}
 
 	h4 {
 		font-size: 16px;
+		margin-top: 20px;
 	}
 
 	h5 {
