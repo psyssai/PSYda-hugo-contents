@@ -10,6 +10,7 @@
 
         <a href="{{ .RelPermalink }}" class="image featured">
             <img src="{{ $path | relURL }}/{{ .Params.featured }}" alt="{{ $alt }}">
+            {{ $path | relURL }}
         </a>
     {{ end }}
 {{ end }}

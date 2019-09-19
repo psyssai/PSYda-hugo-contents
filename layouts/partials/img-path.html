@@ -23,5 +23,6 @@
     {{ $.Scratch.Add "path" (.Date.Format "2006/01") }}
   {{ end }}
 {{ else }}
-  {{ $.Scratch.Set "path" $src }}
+  {{ $.Scratch.Set "path" "/img/" }}
+  {{ $.Scratch.Add "path" $src }}
 {{ end }}

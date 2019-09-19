@@ -11,7 +11,6 @@
 */
 
 /* Reset */
-
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	blockquote, pre, a, abbr,	acronym, address, big, cite, code, del, dfn, em,
 	img, ins, kbd, q, s, samp, small, strike, strong,	sub, sup, tt, var, b, u,
@@ -26,16 +25,59 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-
-	table, tbody, thead, tr, th, td {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: 14px;
-		vertical-align: baseline;
-	}
-
+	
+.summary{
+	width:auto;
+	height:auto;
+	background-color:red;
+	font-size: 20px;
+  }
+  .dataframe table{
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: black;
+	font-size: 12px;
+	table-layout: fixed;
+  }
+  .dataframe table, .dataframe tbody, .datafrme thead, .dataframe tr, .dataframe th, .dataframe td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: inherit;
+	font-size: 12px;
+	vertical-align: baseline;
+  }
+  
+  .dataframe tr, .dataframe th, .dataframe td{
+	text-align: right;
+	vertical-align: middle;
+	padding: 0.5em 0.5em;
+	line-height: normal;
+	white-space: normal;
+	max-width: none;
+	border: none;
+	border-top-color: initial;
+	border-top-style: none;
+	border-top-width: initial;
+	border-right-color: initial;
+	border-right-style: none;
+	border-right-width: initial;
+	border-bottom-color: initial;
+	border-bottom-style: none;
+	border-bottom-width: initial;
+	border-left-color: initial;
+	border-left-style: none;
+	border-left-width: initial;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+  }
+  
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu,
 	nav, section {
 		display: block;
@@ -67,7 +109,7 @@
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 0.7em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
+
 		line-height: 2.5;
 		margin: -1em 1em 0;
 		text-transform: uppercase;
@@ -206,7 +248,6 @@
 		color: #3c3b3b;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 800;
-		letter-spacing: 0.25em;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -335,7 +376,6 @@
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 0.6em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
 		text-transform: uppercase;
 		white-space: nowrap;
 	}
@@ -403,7 +443,6 @@
 		font-size: 0.6em;
 		font-weight: 800;
 		height: 4.8125em;
-		letter-spacing: 0.25em;
 		line-height: 4.8125em;
 		padding: 0 2.5em;
 		text-align: center;
@@ -1136,7 +1175,6 @@
 						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
-						letter-spacing: 0.25em;
 						margin: -0.625em 0 1.7em 0;
 						text-transform: uppercase;
 					}
@@ -1218,7 +1256,6 @@
 				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 				font-size: 0.6em;
 				font-weight: 400;
-				letter-spacing: 0.25em;
 				margin: -0.625em 0 1.7em 0;
 				text-transform: uppercase;
 			}
@@ -1342,7 +1379,6 @@
 					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 					font-size: 0.7em;
 					font-weight: 800;
-					letter-spacing: 0.25em;
 					margin-top: 0.5em;
 					text-transform: uppercase;
 					white-space: nowrap;
@@ -1420,7 +1456,6 @@
 					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 					font-size: 0.6em;
 					font-weight: 400;
-					letter-spacing: 0.25em;
 					line-height: 1;
 					margin: 0 0 0 1em;
 					padding: 0 0 0 1em;
@@ -1668,7 +1703,6 @@
 						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 						font-size: 0.7em;
 						font-weight: 800;
-						letter-spacing: 0.25em;
 						margin-top: 0.5em;
 						text-transform: uppercase;
 						white-space: nowrap;
@@ -1722,7 +1756,6 @@
 						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
-						letter-spacing: 0.25em;
 						line-height: 1;
 						margin: 0 0 0 2em;
 						padding: 0 0 0 2em;
@@ -1955,7 +1988,6 @@
 		-moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
 		box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
 		border: 0;
-		font-size : 16px;
 	}
 
 		table > thead {
@@ -2302,7 +2334,6 @@
 					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 					font-size: 0.7em;
 					font-weight: 400;
-					letter-spacing: 0.25em;
 					text-transform: uppercase;
 				}
 
@@ -2678,7 +2709,6 @@
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 0.5em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
 		text-transform: uppercase;
 	}
 
@@ -2769,7 +2799,6 @@
 						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
-						letter-spacing: 0.25em;
 						margin-bottom: 0;
 						text-decoration: none;
 						text-transform: uppercase;
@@ -2953,7 +2982,6 @@
 							font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 							font-size: 0.6em;
 							font-weight: 400;
-							letter-spacing: 0.25em;
 							margin-bottom: 0;
 							text-decoration: none;
 							text-transform: uppercase;
