@@ -60,10 +60,12 @@
             <link rel="stylesheet" href="{{ "css/academicons.min.css" | relURL }}">
         {{ end }}
 
+        
         {{ if ne ($.Scratch.Get "cssFiles") false }}
             {{ range $.Scratch.Get "cssFiles" }}
                 {{ if ne . "default" }}
                     <link rel="stylesheet" href="{{ . | relURL }}">
+                    abcde
                 {{ end }}
             {{ end }}
         {{ end }}

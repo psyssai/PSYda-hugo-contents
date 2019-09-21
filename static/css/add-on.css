@@ -83,3 +83,18 @@
 	}
 
 
+	#content h1 {
+		margin-top: 80px;
+    }
+
+	#content h2 {
+		margin-top: 60px;
+	}
+
+	#content h3 {
+		margin-top: 40px;
+	}
+
+	#content h4 {
+		margin-top: 20px;
+	}
