@@ -1,6 +1,6 @@
 +++  
 author = "PSYda"  
-categories = ["Pandas"]  
+categories = ["빅데이터분석/Pandas"]  
 tags = ["Pandas","데이터분석","빅데이터"]  
 date = "2019-08-13"  
 description = "Learn What is Pandas"  
