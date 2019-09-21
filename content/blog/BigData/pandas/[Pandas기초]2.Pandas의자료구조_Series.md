@@ -33,9 +33,9 @@ Series는 1차원 데이터 구조, DataFrame은 2차원 데이터 구조를 나
 Series란?
 
 - 1차원 데이터
-- Index + Value 로 구성(Python의 사전데이터와 유사) </li>
+- Index 와 Value 로 구성(Python의 사전데이터와 유사) </li>
 
-먼저 Series 나 DataFrame을 사용하기 위해 Pandas 라이브러리를 import 해야겠죠?(설치는 이전 블로그를 참고해주세요.)
+먼저 Series 나 DataFrame을 사용하기 위해 Pandas 라이브러리를 import 해야합니다.(설치는 이전 블로그를 참고해주세요.)
 
 
 ```python
@@ -207,9 +207,11 @@ data2.dtypes
 
 ## 1.2 Series의 index
 
-- 사전형으로 Series를 생성하면 사전형의 key값이 index로 저장
+- 사전형으로 Series를 생성하면사전형의 key값이 index로 저장
 - 사전형이 아닌 데이터로 Series 생성할 때 index를 명시적으로 입력 가능
-- 입력값이 없다면 0부터 순서대로 번호를 부여
+- 입력값이 없다면 0부터 순서대로 번호를 부여  
+
+### 1.2.1 Series 생성시에 Index명 입력
 
 
 ```python
@@ -239,9 +241,7 @@ data3.index
 
 
 
-  
-  
-이미 생성되어 있는 Series에도 index를 변경 할 수 있습니다.
+### 1.2.2 이미 생성되어 있는 Series의 index명 변경
 
 
 ```python
@@ -459,9 +459,10 @@ data4.add(10)
 - 두 Series의 같은 index 끼리 연산함
 - 같은 index가 없을 경우 NaN으로 저장됨
 
+연산을 위해 새로운 Series 생성
+
 
 ```python
-# 연산을 위해 새로운 Series 생성
 data5 = Series([10,20,30],index = ["서울","대전","대구"])
 data5
 ```
@@ -505,8 +506,12 @@ NaN은 데이터가 없다는 뜻으로 타언어의 Null과 동일한 개념입
 
 ## 1.5 NaN 데이터 처리
 
-그러면 NaN 데이터는 어떻게 처리 할까요?
-먼저, 연산 할 때 부터 NaN이 발생할 경우 특정 값으로 대입할 수 있습니다.
+<ul>
+    <li><strong><span style = "color:red">fill_value 옵션</span></strong> : NaN 데이터를 입력값으로 적용후에 함수 적용</li>
+    <li><strong><span style = "color:red">fillna 함수</span></strong> : NaN값을 입력값으로 변경</li>
+</ul>
+
+add와 같은 산술연산함수를 적용할 때 fill_value 옵션을 적용하면 NaN이 발생할 경우 특정 값으로 대입할 수 있습니다.
 
 
 ```python
@@ -529,8 +534,7 @@ data4.add(data5, fill_value = 0)
 
 
 
-data4 Series에서는 index명이 "광주"인 데이터가 있고(값 = 5) data5에서는 index명이 "광주"인 데이터가 없습니다(NaN). 이때 fill_value = 0 옵션을 주면 NaN값이 0으로 할당된 상태로 더하기 연산이 되어 5가 되는 것을 확인 할 수 있습니다.  
-다른 방법으로 이미 NaN이 발생되어 있는 Series에서 NaN을 다르값으로 대체할 수 있습니다.
+Series에 NaN값이 있을 경우 fillna를 이용해 NaN을 입력값으로 변경할 수 있습니다.
 
 
 ```python
@@ -555,6 +559,12 @@ data6.fillna(0)
 
 
 ## 1.6 통계
+
+<ul>
+    <li><strong><span style = "color:red">describe 함수</span></strong> : 주요 통계 정보 보기</li>
+    <li><strong><span style = "color:red">mean 함수</span></strong> : 평균 구하기</li>
+    <li><strong><span style = "color:red">std 함수</span></strong> : 표준편차 구하기</li>
+</ul>
 
 
 ```python
