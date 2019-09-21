@@ -2,8 +2,15 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+## public 삭제
+mv public/.git layouts/.git
+rm -rf public
+
 # Build the project.
 hugo -t hugo-future-imperfect
+
+##git 복사
+mv layouts/.git public/.git
 
 # Go To Public folder
 cd public
