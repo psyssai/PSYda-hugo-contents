@@ -1,7 +1,7 @@
 
 +++  
 author = "PSY"  
-categories = ["Pandas"]  
+categories = ["빅데이터분석/Pandas"]  
 tags = ["Pandas","DataFrame", "Series"]  
 date = "2019-08-15"  
 description = "Learn What is Series"  
@@ -18,7 +18,7 @@ Pandas는 2개의 자료구조(**<span style = "color:red">Series</span>** , **<
 Series는 1차원 데이터 구조, DataFrame은 2차원 데이터 구조를 나타냅니다.  
 이번 포스팅에서는 [Series](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html?highlight=series)에 대해 아래와 같은 내용을 알아볼 예정입니다.
 
-<div class="summary"> 
+<div id = "summary"> 
 <ul>
     <li>Series 데이터의 생성</li>
     <li>Series 데이터의 조회</li>
