@@ -1,0 +1,103 @@
+/*
+  This css file is for individual users to restyle items for their personal site,
+  or for the implementation of features specifically for their site. Anything that
+  is an official part of the theme (ex. Pull Requests) should be included in main.css
+  within the formating given.
+*/
+body{
+  font-family: "Malgun Gothic", Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: 0px;
+}
+.summary{
+	border-style: dashed;
+    border-width: 1px;
+    border-color: rgb(243, 197, 52);
+    background-color: rgb(254, 254, 184);
+    padding: 0px 30px;
+    line-height: 1.8;
+  }
+  .dataframe table{
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: black;
+	font-size: 12px;
+	table-layout: fixed;
+  }
+  .dataframe table, .dataframe tbody, .datafrme thead, .dataframe tr, .dataframe th, .dataframe td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: inherit;
+	font-size: 12px;
+	vertical-align: baseline;
+  }
+  
+  .dataframe tr, .dataframe th, .dataframe td{
+	text-align: right;
+	vertical-align: middle;
+	padding: 0.5em 0.5em;
+	line-height: normal;
+	white-space: normal;
+	max-width: none;
+	border: none;
+	border-top-color: initial;
+	border-top-style: none;
+	border-top-width: initial;
+	border-right-color: initial;
+	border-right-style: none;
+	border-right-width: initial;
+	border-bottom-color: initial;
+	border-bottom-style: none;
+	border-bottom-width: initial;
+	border-left-color: initial;
+	border-left-style: none;
+	border-left-width: initial;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+  }
+
+  h1 {
+		font-size: 26px;
+    }
+
+	h2 {
+		font-size: 22px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	h4 {
+		font-size: 16px;
+	}
+
+	h5 {
+		font-size: 16px;
+	}
+
+	h6 {
+		font-size: 16px;
+	}
+
+  main h1 {
+		margin-top: 80px;
+    }
+
+  main h2 {
+		margin-top: 60px;
+	}
+
+	main h3 {
+		margin-top: 40px;
+	}
+
+	main h4 {
+		margin-top: 20px;
+	}
