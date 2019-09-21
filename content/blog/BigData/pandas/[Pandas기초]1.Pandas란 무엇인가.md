@@ -16,7 +16,7 @@ type = "post"
 오늘은 Pandas가 무엇인지 알아보겠습니다.
 
 # 1. Pandas란?
-Pandas의 공식 [Github 문서](https://github.com/pandas-dev/pandas)에서 설명하는 Pandas는 아래와 같습니다.  
+[Pandas의 공식 Github](https://github.com/pandas-dev/pandas)에서 설명하는 Pandas는 아래와 같습니다.  
 
 
 >"**<span style="color:red">관계형</span>**" 또는 "**<span style="color:red">레이블이 된</span>**" 데이터로 **<span style="color:red">쉽고 직관적</span>**으로 작업할 수 있도록 설계되었고 **<span style="color:red">빠르고, 유연한</span>** 데이터 구조를 제공하는 **<span style="color:red">Python 패키지</span>**
