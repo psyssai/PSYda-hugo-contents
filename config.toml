@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://psyssai.github.io"
 languageCode = "en-us"
 title = "PSYda"
 theme = "hugo-future-imperfect"

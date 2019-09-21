@@ -4,10 +4,6 @@
   is an official part of the theme (ex. Pull Requests) should be included in main.css
   within the formating given.
 */
-body{
-  font-family: "Malgun Gothic", Helvetica Neue, Helvetica, Arial, sans-serif;
-  letter-spacing: 0px;
-}
 .summary{
 	border-style: dashed;
     border-width: 1px;
