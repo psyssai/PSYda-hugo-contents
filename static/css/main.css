@@ -207,33 +207,29 @@
 			border-bottom: 0;
 		}
 
-		h1 {
-			font-size: 26px;
-			margin-top: 80px;
-		}
-	
-		h2 {
-			font-size: 22px;
-			margin-top: 60px;
-		}
-	
-		h3 {
-			font-size: 18px;
-			margin-top: 40px;
-		}
-	
-		h4 {
-			font-size: 16px;
-			margin-top: 20px;
-		}
-	
-		h5 {
-			font-size: 16px;
-		}
-	
-		h6 {
-			font-size: 16px;
-		}
+    h1 {
+        font-size: 1.3em;
+    }
+
+	h2 {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-size: 0.9em;
+	}
+
+	h4 {
+		font-size: 0.7em;
+	}
+
+	h5 {
+		font-size: 0.7em;
+	}
+
+	h6 {
+		font-size: 0.7em;
+	}
 
 	sub {
 		font-size: 0.8em;
