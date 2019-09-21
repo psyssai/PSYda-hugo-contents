@@ -20,10 +20,10 @@ Series는 1차원 데이터 구조, DataFrame은 2차원 데이터 구조를 나
 
 <div id = "summary"> 
 <ul>
-    <li>Series 데이터의 생성</li>
-    <li>Series 데이터의 조회</li>
-    <li>Series 산술 연산</li>
-    <li>Series 통계</li>
+    <li>Series 데이터의 <strong><span style = "color:red">생성</span></strong></li>
+    <li>Series 데이터의 <strong><span style = "color:red">조회</span></strong></li>
+    <li>Series <strong><span style = "color:red">산술 연산</span></strong></li>
+    <li>Series <strong><span style = "color:red">통계</span></strong></li>
 </div>  
   
     
