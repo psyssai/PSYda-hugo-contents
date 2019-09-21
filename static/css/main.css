@@ -55,7 +55,7 @@
 	}
 
 	header p {
-		font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 0.7em;
 		font-weight: 400;
 		letter-spacing: 0em;
@@ -116,7 +116,7 @@
 
 	body, input, select, textarea {
 		color: #333333;
-		font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
 		line-height: 1.75;
@@ -195,7 +195,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #3c3b3b;
-		font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 800;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
@@ -207,29 +207,33 @@
 			border-bottom: 0;
 		}
 
-    h1 {
-        font-size: 1.3em;
-    }
-
-	h2 {
-		font-size: 1.1em;
-	}
-
-	h3 {
-		font-size: 0.9em;
-	}
-
-	h4 {
-		font-size: 0.7em;
-	}
-
-	h5 {
-		font-size: 0.7em;
-	}
-
-	h6 {
-		font-size: 0.7em;
-	}
+		h1 {
+			font-size: 26px;
+			margin-top: 80px;
+		}
+	
+		h2 {
+			font-size: 22px;
+			margin-top: 60px;
+		}
+	
+		h3 {
+			font-size: 18px;
+			margin-top: 40px;
+		}
+	
+		h4 {
+			font-size: 16px;
+			margin-top: 20px;
+		}
+	
+		h5 {
+			font-size: 16px;
+		}
+	
+		h6 {
+			font-size: 16px;
+		}
 
 	sub {
 		font-size: 0.8em;
@@ -322,7 +326,7 @@
 		-ms-justify-content: -ms-flex-end;
 		justify-content: flex-end;
 		border-bottom: 0;
-		font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 0.6em;
 		font-weight: 400;
 		letter-spacing: 0em;
@@ -389,7 +393,7 @@
 		color: #3c3b3b;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 0.6em;
 		font-weight: 800;
 		height: 4.8125em;
@@ -1123,7 +1127,7 @@
 
 					ul.posts article header .published {
 						display: block;
-						font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
 						letter-spacing: 0em;
@@ -1205,7 +1209,7 @@
 
 			.mini-post header .published {
 				display: block;
-				font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 				font-size: 0.6em;
 				font-weight: 400;
 				letter-spacing: 0em;
@@ -1329,7 +1333,7 @@
 				.post > header .meta .published {
 					color: #3c3b3b;
 					display: block;
-					font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 					font-size: 0.7em;
 					font-weight: 800;
 					letter-spacing: 0em;
@@ -1407,7 +1411,7 @@
 				.post > footer .stats li ul li {
 					border-left: solid 1px rgba(160, 160, 160, 0.3);
 					display: inline-block;
-					font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 					font-size: 0.6em;
 					font-weight: 400;
 					letter-spacing: 0em;
@@ -1655,7 +1659,7 @@
 					.itemized > header .meta .published {
 						color: #3c3b3b;
 						display: block;
-						font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 						font-size: 0.7em;
 						font-weight: 800;
 						letter-spacing: 0em;
@@ -1709,7 +1713,7 @@
 					.itemized > footer .stats li {
 						border-left: solid 1px rgba(160, 160, 160, 0.3);
 						display: inline-block;
-						font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
 						letter-spacing: 0em;
@@ -2288,7 +2292,7 @@
 
 				#header .links ul li a {
 					border-bottom: 0;
-					font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 					font-size: 0.7em;
 					font-weight: 400;
 					letter-spacing: 0em;
@@ -2664,7 +2668,7 @@
 	#footer .copyright {
 		text-align: center;
 		color: #aaaaaa;
-		font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 0.5em;
 		font-weight: 400;
 		letter-spacing: 0em;
@@ -2755,7 +2759,7 @@
 					}
 
 					#menu .links > li a p {
-						font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
 						letter-spacing: 0em;
@@ -2939,7 +2943,7 @@
 						}
 
 						#share-menu .links > li a p {
-							font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+							font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 							font-size: 0.6em;
 							font-weight: 400;
 							letter-spacing: 0em;
