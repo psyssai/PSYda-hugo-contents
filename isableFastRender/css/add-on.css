@@ -13,15 +13,14 @@
     line-height: 1.8;
   }
   .dataframe table{
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	border: none;
 	border-collapse: collapse;
 	border-spacing: 0;
 	color: black;
 	font-size: 12px;
 	table-layout: fixed;
-	width: 0%;
   }
   .dataframe table, .dataframe tbody, .datafrme thead, .dataframe tr, .dataframe th, .dataframe td {
 	margin: 0;

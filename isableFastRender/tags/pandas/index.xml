@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pandas on PSYda</title>
+    <link>http://localhost:1313/tags/pandas/</link>
+    <description>Recent content in Pandas on PSYda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/pandas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Pandas 기초]3.Pandas의 자료구조-DataFrame</title>
+      <link>http://localhost:1313/blog/bigdata/pandas/3_dataframe/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/bigdata/pandas/3_dataframe/</guid>
+      <description>안녕하세요. PSYda입니다.
+이번 포스팅에서는 Pandas에서 제일 중요한 자료구조인 DataFrame에 대해 알아보겠습니다. 소개할 내용은 아래와 같습니다.
+ DataFrame 생성 DataFrame에 Data추가/삭제/조회  2. DataFrame DataFrame 이란?
+  2차원 데이터   인덱스가 같은 하나 이상의 Series가 모여진 데이터   DBMS 의 관계형 Table 과 매우 유사   먼저 DataFrame을 사용하기 위해 Pandas 라이브러리를 import 합니다.
+# pandas library import import pandas as pd from pandas import Series, DataFrame  2.</description>
+    </item>
+    
+    <item>
+      <title>[Pandas 기초]2.Pandas의 자료구조-Series</title>
+      <link>http://localhost:1313/blog/bigdata/pandas/2_series/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/bigdata/pandas/2_series/</guid>
+      <description>안녕하세요. PSYda 입니다.
+Pandas는 2개의 자료구조(Series , DataFrame)를 가지고 있습니다.
+Series는 1차원 데이터 구조, DataFrame은 2차원 데이터 구조를 나타냅니다.
+이번 포스팅에서는 Series에 대해 아래와 같은 내용을 알아볼 예정입니다.
+ Series 데이터의 생성 Series 데이터의 조회 Series 산술 연산 Series 통계  1. Series Series란?
+ 1차원 데이터 Index 와 Value 로 구성(Python의 사전데이터와 유사)   먼저 Series 나 DataFrame을 사용하기 위해 Pandas 라이브러리를 import 해야합니다.(설치는 이전 블로그를 참고해주세요.)</description>
+    </item>
+    
+    <item>
+      <title>[Pandas 기초]1.Pandas란 무엇인가?</title>
+      <link>http://localhost:1313/blog/bigdata/pandas/1_overview/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/bigdata/pandas/1_overview/</guid>
+      <description>안녕하세요. PSYda입니다.
+오늘은 Pandas가 무엇인지 알아보겠습니다.
+1. Pandas란? Pandas의 공식 Github에서 설명하는 Pandas는 아래와 같습니다.
+ &amp;ldquo;관계형&amp;rdquo; 또는 &amp;ldquo;레이블이 된&amp;rdquo; 데이터로 쉽고 직관적으로 작업할 수 있도록 설계되었고 빠르고, 유연한 데이터 구조를 제공하는 Python 패키지
+ 관계형, 레이블이 된 데이터라는 말은 엑셀의 데이터나, DBMS의 관계형 테이블 형태와 같은 표형태의 데이터로 이해 할 수 있습니다. 아무튼 데이터를 쉽게 다룰 수 있고, 분석을 용이하게 해주는 파이썬 라이브러리라고 이해 할 수 있습니다.
+2. Pandas로 할 수 있는 것은?</description>
+    </item>
+    
+  </channel>
+</rss>

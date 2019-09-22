@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on PSYda</title>
+    <link>http://localhost:1313/tags/series/</link>
+    <description>Recent content in Series on PSYda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Pandas 기초]2.Pandas의 자료구조-Series</title>
+      <link>http://localhost:1313/blog/bigdata/pandas/2_series/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/bigdata/pandas/2_series/</guid>
+      <description>안녕하세요. PSYda 입니다.
+Pandas는 2개의 자료구조(Series , DataFrame)를 가지고 있습니다.
+Series는 1차원 데이터 구조, DataFrame은 2차원 데이터 구조를 나타냅니다.
+이번 포스팅에서는 Series에 대해 아래와 같은 내용을 알아볼 예정입니다.
+ Series 데이터의 생성 Series 데이터의 조회 Series 산술 연산 Series 통계  1. Series Series란?
+ 1차원 데이터 Index 와 Value 로 구성(Python의 사전데이터와 유사)   먼저 Series 나 DataFrame을 사용하기 위해 Pandas 라이브러리를 import 해야합니다.(설치는 이전 블로그를 참고해주세요.)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>데이터 분석 on PSYda</title>
+    <link>http://localhost:1313/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D/</link>
+    <description>Recent content in 데이터 분석 on PSYda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Pandas 기초]3.Pandas의 자료구조-DataFrame</title>
+      <link>http://localhost:1313/blog/bigdata/pandas/3_dataframe/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/bigdata/pandas/3_dataframe/</guid>
+      <description>안녕하세요. PSYda입니다.
+이번 포스팅에서는 Pandas에서 제일 중요한 자료구조인 DataFrame에 대해 알아보겠습니다. 소개할 내용은 아래와 같습니다.
+ DataFrame 생성 DataFrame에 Data추가/삭제/조회  2. DataFrame DataFrame 이란?
+  2차원 데이터   인덱스가 같은 하나 이상의 Series가 모여진 데이터   DBMS 의 관계형 Table 과 매우 유사   먼저 DataFrame을 사용하기 위해 Pandas 라이브러리를 import 합니다.
+# pandas library import import pandas as pd from pandas import Series, DataFrame  2.</description>
+    </item>
+    
+  </channel>
+</rss>

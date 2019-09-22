@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>빅데이터 on PSYda</title>
+    <link>http://localhost:1313/tags/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/</link>
+    <description>Recent content in 빅데이터 on PSYda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Pandas 기초]1.Pandas란 무엇인가?</title>
+      <link>http://localhost:1313/blog/bigdata/pandas/1_overview/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/bigdata/pandas/1_overview/</guid>
+      <description>안녕하세요. PSYda입니다.
+오늘은 Pandas가 무엇인지 알아보겠습니다.
+1. Pandas란? Pandas의 공식 Github에서 설명하는 Pandas는 아래와 같습니다.
+ &amp;ldquo;관계형&amp;rdquo; 또는 &amp;ldquo;레이블이 된&amp;rdquo; 데이터로 쉽고 직관적으로 작업할 수 있도록 설계되었고 빠르고, 유연한 데이터 구조를 제공하는 Python 패키지
+ 관계형, 레이블이 된 데이터라는 말은 엑셀의 데이터나, DBMS의 관계형 테이블 형태와 같은 표형태의 데이터로 이해 할 수 있습니다. 아무튼 데이터를 쉽게 다룰 수 있고, 분석을 용이하게 해주는 파이썬 라이브러리라고 이해 할 수 있습니다.
+2. Pandas로 할 수 있는 것은?</description>
+    </item>
+    
+  </channel>
+</rss>
