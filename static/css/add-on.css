@@ -12,7 +12,8 @@
     padding: 0px 30px;
     line-height: 1.8;
   }
-  table .dataframe{
+
+  table.dataframe{
 	margin-left: 10px;
 	margin-right: 10px;
 	border-collapse: collapse;
@@ -21,7 +22,8 @@
 	table-layout: fixed;
 	width: 0%;
   }
-  table .dataframe , .dataframe tbody, .datafrme thead, .dataframe tr, .dataframe th, .dataframe td {
+
+  table .dataframe , .dataframe tbody, .dataframe thead, .dataframe tr, .dataframe th, .dataframe td {
 	margin: 0;
 	padding: 0;
 	border: 0;
