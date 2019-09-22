@@ -7,7 +7,7 @@ mv public/.git layouts/.git
 rm -rf public
 
 # Build the project.
-hugo -t hugo-future-imperfect
+hugo
 
 ##git 복사
 mv layouts/.git public/.git
