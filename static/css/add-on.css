@@ -23,7 +23,7 @@
 	width: 0%;
   }
 
-  table .dataframe , .dataframe tbody, .dataframe thead, .dataframe tr, .dataframe th, .dataframe td {
+  table.dataframe , .dataframe tbody, .dataframe thead, .dataframe tr, .dataframe th, .dataframe td {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -35,7 +35,7 @@
   .dataframe tr, .dataframe th, .dataframe td{
 	text-align: right;
 	vertical-align: middle;
-	padding: 0.5em 0.5em;
+	padding: 1em 1em;
 	line-height: normal;
 	white-space: normal;
 	max-width: none;
