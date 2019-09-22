@@ -38,7 +38,9 @@ DataFrame 이란?
     <li> DBMS 의 관계형 Table 과 매우 유사 </li>
 </ul>
 
-![DataFrame](/img/Pandas/DataFrame_1.jpg)
+<div class = 'CenterImg'>
+    <img src ="/img/Pandas/DataFrame_1.jpg" alt = "DataFrame_1" />
+</div>
 
 먼저 DataFrame을 사용하기 위해 Pandas 라이브러리를 import 합니다.
 
@@ -1012,7 +1014,8 @@ Data2[["키", "몸무게"]]
     <li><strong><span style = "color:red">DataFrame명.loc["index명"]</span></strong> 을 통해 특정 index만 조회 가능하다.</li>
     <li><strong><span style = "color:red">DataFrame명.iloc[index번호]</span></strong> 를 통해 특정 index만 조회 가능하다.</li>
 </ul>
-마찬가지로 하나의 index만 조회 할 경우 Series Type, 여러 index의 경우 DataFrame Type으로 출력한다.
+
+마찬가지로 하나의 index만 조회 할 경우 Series Type, 여러 index의 경우 DataFrame Type으로 출력한다.  
 
 
 ```python
@@ -1548,8 +1551,3 @@ Data2.tail(2)
 [다음 포스팅 바로 가기](https://psyssai.github.io/blog/bigdata/pandas/4_DataFrame_Merge)  
 
 감사합니다.
-
-
-```python
-
-```
