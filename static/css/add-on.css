@@ -35,7 +35,7 @@
   .dataframe tr, .dataframe th, .dataframe td{
 	text-align: right;
 	vertical-align: middle;
-	padding: 1em 1em;
+	padding: 0.5em 0.5em;
 	line-height: normal;
 	white-space: normal;
 	max-width: none;
