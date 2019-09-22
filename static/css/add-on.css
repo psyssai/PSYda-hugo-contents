@@ -13,7 +13,7 @@
     line-height: 1.8;
   }
 
-  div .dataframe{
+  table.dataframe{
 	margin-left: 10px;
 	margin-right: 10px;
 	border-collapse: collapse;
@@ -23,7 +23,7 @@
 	width: 0%;
   }
 
-  table.dataframe , .dataframe tbody, .dataframe thead, .dataframe tr, .dataframe th, .dataframe td {
+  .dataframe tbody, .dataframe thead, .dataframe tr, .dataframe th, .dataframe td {
 	margin: 0;
 	padding: 0;
 	border: 0;
