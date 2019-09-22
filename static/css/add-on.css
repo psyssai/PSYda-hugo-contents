@@ -13,7 +13,7 @@
     line-height: 1.8;
   }
 
-  table.dataframe{
+  div .dataframe{
 	margin-left: 10px;
 	margin-right: 10px;
 	border-collapse: collapse;
