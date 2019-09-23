@@ -1548,6 +1548,6 @@ Data2.tail(2)
 
 위의 Jupyter notebook 내용은 [여기](https://github.com/psyssai/PandasBasic/blob/master/PandasBasic_2_DataFrame.ipynb) Github에서도 확인 할 수 있습니다.  
 다음 포스팅은 두 개의 DataFrame을 연결하는 Join 기법에 관한 내용입니다.  
-[다음 포스팅 바로 가기](https://psyssai.github.io/blog/bigdata/pandas/4_DataFrame_Merge)  
+[다음 포스팅 바로 가기](https://psyssai.github.io/blog/bigdata/pandas/4_dataframe_merge)  
 
 감사합니다.
