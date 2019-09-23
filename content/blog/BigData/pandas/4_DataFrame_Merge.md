@@ -193,7 +193,7 @@ DF2
 
 두 DataFrame의 기준 컬럼에서 <strong><u>둘 다 존재하는 데이터만 Join</u></strong>
 <div class = 'CenterImg'>
-    <img src = "/img/Pandas/Merge_1.jpg" />
+    <img src = "img/Pandas/Merge_1.jpg" />
 </div>
 
 
@@ -260,7 +260,7 @@ pd.merge(left = DF1 , right = DF2, how = "inner", on = "이름")
 - 오른쪽 DataFrame 중 <strong><u>왼쪽 DataFrame에 없는 Data는 NaN으로 처리</u></strong>
 
 <div class = 'CenterImg'>
-<img src = "/img/Pandas/Merge_2.jpg" />
+<img src = "img/Pandas/Merge_2.jpg" />
 </div>
 
 
@@ -338,7 +338,7 @@ pd.merge(left = DF1 , right = DF2, how = "left", on = "이름")
 - 왼쪽 DataFrame 중 <strong><u>오른쪽 DataFrame에 없는 Data는 NaN으로 처리</u></strong>
 
 <div class ="CenterImg">
-<img src = "/img/Pandas/Merge_3.jpg" />
+<img src = "img/Pandas/Merge_3.jpg" />
 </div>
 
 
@@ -413,7 +413,7 @@ pd.merge(left = DF1 , right = DF2, how = "right", on = "이름")
 - 오른쪽 DataFrame 중 <strong><u>왼쪽 DataFrame에 없는 Data는 NaN으로 처리</u></strong>  
 
 <div class = "CenterImg">
-<img src = "/img/Pandas/Merge_4.jpg" />
+<img src = "img/Pandas/Merge_4.jpg" />
 </div>
 
 DF1과 DF2를 Outer Join
@@ -929,6 +929,6 @@ pd.concat([DF1, DF3], axis = 0, sort=False)
 
 
 다음 포스팅은 Pandas 데이터의 파일 입출력에 대해 알아볼 예정입니다.    
-[다음 포스팅 바로 가기](https://psyssai.github.io/blog/bigdata/pandas/5_dataFrame_fileio)    
+[다음 포스팅 바로 가기](https://psyssai.github.io/blog/bigdata/pandas/5_dataframe_fileio)    
 
 감사합니다.
