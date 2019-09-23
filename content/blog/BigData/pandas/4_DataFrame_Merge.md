@@ -929,6 +929,6 @@ pd.concat([DF1, DF3], axis = 0, sort=False)
 
 
 다음 포스팅은 Pandas 데이터의 파일 입출력에 대해 알아볼 예정입니다.    
-[다음 포스팅 바로 가기](https://psyssai.github.io/blog/bigdata/pandas/5_dataFrame_io)    
+[다음 포스팅 바로 가기](https://psyssai.github.io/blog/bigdata/pandas/5_dataFrame_fileio)    
 
 감사합니다.
