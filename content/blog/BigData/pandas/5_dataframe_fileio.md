@@ -1292,11 +1292,6 @@ ManUTD.to_excel('data/ManUTD.xlsx')
 
 
 다음 포스팅은 Pandas 데이터의 파일 입출력에 대해 알아볼 예정입니다.    
-[다음 포스팅 바로 가기](https://psyssai.github.io/blog/bigdata/pandas/6_dataFrame_calc)    
+[다음 포스팅 바로 가기](https://psyssai.github.io/blog/bigdata/pandas/6_dataframe_calc)    
 
 감사합니다.
-
-
-```python
-
-```
