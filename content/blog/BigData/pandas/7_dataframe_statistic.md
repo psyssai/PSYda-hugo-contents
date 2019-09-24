@@ -733,7 +733,7 @@ players.hist(figsize = (15,10))
 
 
 
-![png](D%3A/PSYda/content/blog/bigdata/pandas/7_dataframe_statistic_50_1.png)
+![png](/blog/bigdata/pandas/7_dataframe_statistic_50_1.png)
 
 
 ### 6.3.2 상관계수 그래프 시각화
@@ -767,7 +767,7 @@ pd.plotting.scatter_matrix(players, figsize = (15,10))
 
 
 
-![png](D%3A/PSYda/content/blog/bigdata/pandas/7_dataframe_statistic_52_1.png)
+![png](/blog/bigdata/pandas/7_dataframe_statistic_52_1.png)
 
 
 위의 Jupyter notebook 내용은 [여기](https://github.com/psyssai/PandasBasic/blob/master/PandasBasic_6_DataFrame_Statistic.ipynb) Github에서도 확인 할 수 있습니다.
