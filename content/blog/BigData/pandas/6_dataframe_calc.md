@@ -33,6 +33,7 @@ type = "post"
 # 5.Pandas DataFrame 산술 연산
 
 DataFrame 의 연산은 아래의 두 가지 케이스가 있습니다.
+
 - DataFrame vs DataFrame 연산
 - DataFrame vs Series 연산
 
@@ -532,7 +533,7 @@ df1.add(s1, axis = 1)
 
 위의 Jupyter notebook 내용은 [여기](https://github.com/psyssai/PandasBasic/blob/master/PandasBasic_5_DataFrame_ArithmeticOperation.ipynb) Github에서도 확인 할 수 있습니다,
 
-다음 포스팅은 DataFrame의 통계에 대해 알아볼 예정입니다.
+다음 포스팅은 DataFrame의 통계에 대해 알아볼 예정입니다.  
 [다음 포스팅 바로 가기](https://psyssai.github.io/blog/bigdata/pandas/7_dataframe_statistic)  
 
 
@@ -540,3 +541,8 @@ df1.add(s1, axis = 1)
 
 
 
+
+
+```python
+
+```
