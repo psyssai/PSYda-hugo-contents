@@ -356,7 +356,9 @@ df.apply(maxMinusMin2, axis =1)
 - <strong><u>DataFrame</u></strong>에서 사용가능한 함수
 - DataFrame의 <strong><u>모든값(values)</u></strong>에 대해 함수 일괄 적용
 
-<img src = "/img/pandas/applymapFunction.jpg" alt="applymapFunction" />
+<div class = "CenterImg">
+<img src = "/img/Pandas/applymapFunction.jpg" alt="applymapFunction" />
+</div>
 
 DataFrame 생성
 
@@ -486,6 +488,11 @@ df2.applymap(square)
 
 다음 포스팅은 Pandas DataFrame 집계(그룹핑) 함수에 대해 알아볼 예정입니다.
 
-[다음 포스팅 바로가기](https://psyssai.github.io/blog/bigdata/pandas/9_dataframe_grouping)
+[다음 포스팅 바로가기](https://psyssai.github.io/blog/bigdata/pandas/10_dataframe_grouping)
 
 감사합니다.
+
+
+```python
+
+```

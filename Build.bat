@@ -16,3 +16,9 @@ jupyter nbconvert --to markdown /C/Users/82103/PandasBlogPosting/PandasBasic_6_D
 sed -i 's/D\%3A\/PSYda\/content\//\//g' /d/PSYda/content/blog/bigdata/pandas/7_dataframe_statistic.md
 
 jupyter nbconvert --to markdown /C/Users/82103/PandasBlogPosting/PandasBasic_7_DataFrame_sort_rank.ipynb --output /d/PSYda/content/blog/bigdata/pandas/8_dataframe_sortrank.md
+
+jupyter nbconvert --to markdown /C/Users/82103/PandasBlogPosting/PandasBasic_8_Pandas_apply_function.ipynb --output /d/PSYda/content/blog/bigdata/pandas/9_dataframe_applyfunction.md
+sed -i 's/img\//\/img\//g' /d/PSYda/content/blog/bigdata/pandas/9_dataframe_applyfunction.md
+
+jupyter nbconvert --to markdown /C/Users/82103/PandasBlogPosting/PandasBasic_9_DataFrame_GroupingFunction.ipynb --output /d/PSYda/content/blog/bigdata/pandas/10_dataframe_grouping.md
+sed -i 's/img\//\/img\//g' /d/PSYda/content/blog/bigdata/pandas/10_dataframe_grouping.md

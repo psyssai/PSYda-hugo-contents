@@ -108,7 +108,7 @@
 	}
 
 
-	.hljs{display:block;overflow-x:auto;padding:0.5em;color:#333;background:white;border: 0;margin:0 0 2em 0;font-size:14px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;}
+	.hljs{display:block;overflow-x:auto;padding:0.5em;color:#333;background:white;border: 0;margin:0 0 2em 0;max-height:300px;font-size:14px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;}
 	.hljs-comment,.hljs-quote{color:green;font-style:italic}
 	.hljs-selector-tag,.hljs-subst{color:#333;font-weight:bold}
 	.hljs-number,.hljs-literal,.hljs-variable,.hljs-template-variable,.hljs-tag .hljs-attr{color:#008080}
