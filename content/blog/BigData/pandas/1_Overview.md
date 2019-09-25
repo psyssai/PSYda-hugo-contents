@@ -45,4 +45,4 @@ Anaconda는 수학, 과학, **<span style="color:red">데이터 분석 분야에
 Pandas에 대한 추가적인 정보가 필요할 경우 [공식 문서](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#excel)를 참고해주세요.  
 
 
-다음 포스팅 바로가기
+[다음 포스팅 바로가기](https://psyssai.github.io/blog/bigdata/pandas/2_series)
