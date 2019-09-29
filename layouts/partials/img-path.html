@@ -13,6 +13,7 @@
 {{ $src := $.Scratch.Get "path" }}
 {{ $alt := $.Scratch.Get "featuredalt" }}
 {{ $img := $.Scratch.Get "featured" }}
+{{ $filePath := $.Scratch.Get "path"}}
 {{ $structType := $.Scratch.Get "structType" }}
 
 {{ if eq $src "date" }}
@@ -23,5 +24,6 @@
     {{ $.Scratch.Add "path" (.Date.Format "2006/01") }}
   {{ end }}
 {{ else }}
-  {{ $.Scratch.Set "path" "/img/Pandas" }}
+  {{ $.Scratch.Set "path" $filePath }}
+
 {{ end }}

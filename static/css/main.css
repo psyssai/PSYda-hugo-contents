@@ -743,19 +743,22 @@
 	}
 
 		.image img {
-			display: block;
+			display: inline-block;
 		}
 
 		.image.left,
 		.image.right,
 		.image.center {
-			max-width: 40%;
+			max-width: 100%;
+		}
+		.image.center {
+			text-align: center;
 		}
 
 			.image.left img,
 			.image.right img,
 			.image.center img {
-				width: 100%;
+				width: auto;
 			}
 
 		.image.left {
@@ -791,10 +794,6 @@
 			margin: 0 0 3em 0;
 			width: 100%;
 		}
-
-			.image.featured img {
-				width: 100%;
-			}
 
 			@media screen and (max-width: 736px) {
 
@@ -1332,7 +1331,7 @@
         max-width: 100%;
     }
 
-    #content p a,
+    #content p>a,
 		#content ul li a {
         border-bottom: dotted 2px rgba(160,160,160,.65);
     }

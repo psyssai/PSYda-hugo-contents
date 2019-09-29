@@ -1,0 +1,24 @@
+<!--
+    params num = 1-2
+    Can be bolded and Colored
+
+    position 0
+        input Contents 
+
+    position 1, name: color
+        font color
+        exfffffffffffffffffff) "red"
+
+-->
+
+{{ $numOfParams := len .Params }}
+{{ if and (ge $numOfParams 1) (le $numOfParams 2) }}
+    {{ if eq $numOfParams 1 }}
+        {{ $.Scratch.Set "color" "red" }}
+    {{ else }}
+        {{ $.Scratch.Set "color" (.Get 1) }}
+    {{ end }}
+    <strong><span style = "color:{{ $.Scratch.Get "color" }}">{{ .Get 0 }}</span></strong>
+    <!-- <strong><span style = "{{ $.Scratch.Get "color" }}"">{{ .Get 0 }}</span></strong>
+-->
+{{ end }}

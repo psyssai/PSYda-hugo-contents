@@ -8,7 +8,6 @@
         {{ range .Paginator.Pages }}
             {{ .Render "content-list" }}
         {{ end }}
-
         {{ partial "pagination" . }}
     </div>
     {{ partial "sidebar" . }}
