@@ -104,7 +104,7 @@ git version 20.22.0.windows.1
 
 # 2.React Setup
 ## 2.1 React App 만들기  
-React는 아름다운(?) Component를 만들 수 있는 언어이지만, Browser에서 React 코드를 이해하지 못하기 때문에, 못생긴(이해 가능한) 코드로 변경해줘야합니다. 이를 위해 Webpack, Babel을 다운로드 해야 하고 React 코드를 컴파일을 해야 하는 등 번거로운 작업들이 필요했었습니다. 하지만 2016년 이후부터는 {{< em "'create react app'" >}} 을 통해 <strong><u>간단하게 React Wep App을 만들 수 있습니다.</u></strong>
+React는 아름다운(?) Component를 만들 수 있는 언어이지만, Browser에서 React 코드를 이해하지 못하기 때문에, 못생긴(이해 가능한) 코드로 변경해줘야합니다. 이를 위해 Webpack, Babel을 다운로드 해야 하고 React 코드를 컴파일을 해야 하는 등 번거로운 작업들이 필요했었습니다. 하지만 2016년 이후부터는 {{< em "'create react app'" >}} 을 통해 간단하게 React Wep App을 만들 수 있습니다.
 
 <strong><u>1) App 설치</u></strong>
 
@@ -122,12 +122,14 @@ installing packages. This might take a couple of minues.
 ```cmd
 >code movie_app_2019
 ```
+
 <strong><u>3) APP 실행</u></strong>
 
 - VS code 상의 Terminal에서 {{< em "npm start" >}} 입력
 ```cmd
 movie_app_2019> npm start
 ```
+
 <strong><u>4) APP 구동 확인</u></strong>
 
 - {{< em "http://localhost:3000" >}} 에 접속하여 동작하는지 확인

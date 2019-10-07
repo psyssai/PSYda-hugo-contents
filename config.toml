@@ -89,7 +89,7 @@ canonifyURLs = true
 [params.intro]
   header    = "PSYda"
 
-  paragraph = "평범한 개발자 입니다. 틈틈히 공부한 내용을 올리고 있습니다."
+  paragraph = "아직 많이 부족한 개발자 입니다. 틈틈히 공부한 내용을 올리고 있습니다. 현재에 멈추지 않고 계속적으로 발전하길 원합니다."
 
   about     = ""
 
