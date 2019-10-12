@@ -26,8 +26,8 @@ type = "post"
 정리한 내용은 아래의 목차로 구성되며, 클릭하시면 해당 부분으로 이동할 수 있습니다.
 
 # 포스팅 목차
-1. [React 소개와 설치](/frontend/react/react_2_introduction)
-2. 
+1. [React 소개와 설치](/frontend/react/react_1_introduction)
+2. [Component 와 JSX](/frontend/react/react_2_component_jsx)
 3. 
 
 감사합니다.

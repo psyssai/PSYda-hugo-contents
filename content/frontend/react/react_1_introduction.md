@@ -166,9 +166,9 @@ movie_app_2019>git remote add origin https://github.com/psyssai/movie_app_2019.g
 - {{< em "git push origin master" >}}  
 
 ```cmd
-git add.
-git commit -m "#1.0 Creating Your React App"
-git push origin master
+movie_app_2019>git add.
+movie_app_2019>git commit -m "#1.0 Creating Your React App"
+movie_app_2019>git push origin master
 ```
 
 <strong><u>5) 원격저장소 확인</u></strong>  
@@ -205,7 +205,18 @@ Github 사이트로 이동하여 원격 저장소에 잘 발행되었는지 확�
 
 - Application이 Load할 때 빈 html을 로드 하고, react가 HTML에 정보를 밀어 넣음
 
-## 3.3 동작 원리
+## 3.3 ReactApp 실행
+- cmd창(터미널)에서 {{< em "npm start">}} 입력
+
+```cmd
+movie_app_2019>npm start
+Starting the development server...
+complied successfully!
+```
+
+- 브라우저에서 [localhost:3000](http://localhost:3000/) 으로 이동하여 동작 확인
+
+## 3.4 동작 원리
 1) {{< em "App.js" >}}에 있는 {{< em "App 함수" >}}에서 <strong><u>생성하고 싶은 부분을 명시</u></strong>  
 2) {{< em "index.js" >}} 에서 <strong><u>App을 불러오고 index.html에서 찾을 요소를 명시</u></strong>  
 3) {{< em "index.html" >}} 에서 찾아진 요소 부분에 <strong><u>App에서 명시한 것이 생성</u></strong>  
@@ -243,7 +254,6 @@ ReactDOM.render(<App />, document.getElementByID('root'))
 - 실제로 {{< em "index.html은 비어 있지만" >}}, 아래와 같이 <strong><u>Browser에 표시됨</u></strong>
 - F12(개발자 도구)를 눌러보면 Hello!!!! 가 id root에 생성되어 있음
 {{< img-post "/img/react/1" "1_23.png" "" "center" >}}
-
 
 
 감사합니다.
