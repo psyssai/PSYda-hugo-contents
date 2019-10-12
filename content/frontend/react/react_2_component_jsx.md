@@ -22,7 +22,7 @@ type = "post"
 <br>
 <ol>
 <strong>
-<li>Component</li>
+<li>(함수)Component</li>
 <li>JSX & props</li>
 <li>동적인 Component 사용(Map함수 이용)</li>
 <li>유효한 Props 인지 Check하기</li>
