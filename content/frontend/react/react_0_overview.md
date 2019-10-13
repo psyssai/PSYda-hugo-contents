@@ -29,5 +29,6 @@ type = "post"
 1. [React 소개와 설치](/frontend/react/react_1_introduction)
 2. [Component 와 JSX](/frontend/react/react_2_component_jsx)
 3. [State 와 Component의 LifeCycle](/frontend/react/react_3_state_lifecycle)
+4. [실전! 영화 App 만들기](/frontend/react/react_4_create_movie_app)
 
 감사합니다.

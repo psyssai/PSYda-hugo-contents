@@ -2,7 +2,7 @@
 author = "PSYda"  
 categories = ["FrontEnd/React"]  
 tags = ["React","FrontEnd","노마드코더","스테이트", "클래스 컴포넌트", "컴포넌트 라이프싸이클"]  
-date = "2019-10-12"  
+date = "2019-10-11"  
 description = ""  
 featured = ""  
 featuredalt = ""  
