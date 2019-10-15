@@ -23,3 +23,5 @@ type = "post"
 Hugo Category에서는 Github와 Hugo를 이용해 블로깅을 하면서 알게된 정보들을 포스팅할 예정입니다.
 
 # 1.Hugo
+# 2.정적웹사이트 생성기(Static Website )
+# 3.
